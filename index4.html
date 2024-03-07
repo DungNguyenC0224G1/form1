@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table style="border: 10px solid lightblue">
+    <tr>
+        <th style="background: orangered;color: white"  colspan="4">SỞ THÍCH CỦA BẠN</th>
+    </tr>
+    <tr>
+        <td align="right" style="color: blue">Họ và tên</td><td colspan="3"><input type="text" style="border: 2px inset;width: 200px"></td>
+    </tr>
+    <tr>
+        <td align="right" style="color: blue">Email</td><td colspan="3"><input type="text" style="border: 2px inset;width: 200px"></td>
+    </tr>
+    <tr>
+        <td align="right" style="color: blue">Sở thích</td><td style="color: orangered"><input type="checkbox">Thể thao</td><td style="color: orangered"><input type="checkbox">Âm nhạc </td><td style="color: orangered"><input type="checkbox">Đọc Sách </td>
+    </tr>
+    <tr>
+        <td></td><td style="color: orangered"><input type="checkbox">Lướt web</td><td style="color: orangered"><input  type="checkbox">Chơi game </td><td style="color: orangered"><input type="checkbox">Điện ảnh </td>
+    </tr>
+    <tr>
+        <td></td><td style="color: orangered"><input type="checkbox">Du lịch </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><button type="submit">Gửi thông tin</button></td>
+        <td><button type="reset">Nhập lại</button> </td>
+    </tr>
+
+</table>
+<form action="http://demo.codegym.vn/6/registration_form/register.php" method="post">
+    <table style="background-color: #f5f596;border: 10px">
+        <tr>
+            <td colspan="2" style="background-color: lightblue;color: blue">ĐĂNG KÝ HỌC VIÊN</td>
+        </tr>
+        <tr>
+            <td style="width:100px">Họ Và Tên</td><td style="width: 500px"><input type="text" style="border: 2px inset"></td>
+        </tr>
+        <tr>
+            <td style="width:100px">Ngày Sinh</td><td style="width: 500px"><input style="width: 100px;border: 2px inset"></td>
+        </tr>
+        <tr>
+            <td style="width:100px">Giới tính</td><td><input type="radio" value="" name="gender">Nam <input type="radio" value="" name="gender">Nữ </td>
+        </tr>
+        <tr>
+            <td valign="top" style="width:100px" >Địa chỉ</td><td><textarea cols="50" rows="5" name="adress" style="border: 2px inset"></textarea></td>
+        </tr>
+        <tr>
+            <td>Lớp</td><td><select name="Chọn lớp" style="border: 2px inset"><option> lớp 1</option><option>Lớp 2</option></select>
+        </td>
+        </tr>
+        <tr>
+            <td> Email</td><td><input type="text" name="email" style="border: 2px inset"" </td>
+        </tr>
+        <tr>
+            <td>Điện Thoại </td><td><input type="text" name="phone" style="border: 2px inset"> </td>
+        </tr>
+        <tr>
+            <td></td><td><button type="submit">Đăng ký</button> <button type="reset">Nhập lại </button> </td>
+        </tr>
+
+    </table>
+</form>
+</body>
+</html>
